@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+}
+
+/*BODY*/
+body{
+    background-color: #F1F0ED;
+    font-family: 'Raleway', sans-serif;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/*CABECERA*/
+.tit-nav{
+    display: flex;
+    padding: 10 0;
+    justify-content: space-between;
+    align-items: center;
+}
+    /*TITULO CABECERA*/
+    .tit{
+        color: #AB8262;
+        font-size: 22px;
+    }
+
+    /*NAVEGACION*/
+
+    .tit img{
+        width: 300px;
+    }
+    .nav a{
+        text-decoration: none;
+        color: #AB8262;
+        padding: 10;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .nav a:hover{
+        text-decoration: none;
+        color: #AB8262;
+        padding: 10;
+        font-weight: bold;
+        font-size: 16px;
+        background-color: white;
+        border-radius: 3px;
+
+    }
+
+
+/*IMAGEN*/
+.img{
+    background-color: white;
+    text-align: center;
+}
+    .img img{
+        width: 800;
+    }
+
+
+    .contenido h1,.contenido p,.contenido a{
+        padding: 15;
+    }
+
+    
+    /*CONTENIDO*/
+    .contenido{
+        max-width: 100%;
+    }
+        .blanco, .marron{
+            display: flex;
+        }
+
+        .contenido p{
+            padding-right: 70;
+            line-height: 2;
+        }
+
+        .contenido a{
+            color: gray;
+            line-height: 3;
+        }
+
+
+/*CUADROS DE COLORES*/
+        #h1_blanco{
+             padding-top: 50;
+        }
+        
+        .blanco_texto{
+            padding-bottom: 50;
+        }
+        .marron_texto p, #h1_blanco, .blanco_texto p{
+            text-align: center;
+        }
+        .marron{
+            background-color: #AB8262;
+            color: #F1F0ED;
+
+        }
+
+        .blanco{
+            background-color:#F1F0ED;
+            color: #AB8262;
+           
+        }
+        
+        .info{
+            display: flex;
+            background-color: #AB8262;
+        }
+        .info_blanca{
+            display: flex;
+            background-color: #F1F0ED;
+        }
+
+        .material-symbols-outlined{
+            padding-top: 22px;
+            color: #F1F0ED;
+        }
+        
+        #boton_blanco{
+            color: #AB8262;
+            background-color: #F1F0ED;
+            padding-top: 56px;
+        }
+        
+        /*DISEÑOS*/
+        .img_diseng{
+            max-width: 1000px;
+        }
+        .img_diseng img{
+            width: 300px;
+            text-align: center;
+        }
