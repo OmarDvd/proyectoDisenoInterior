@@ -8,13 +8,10 @@ let boton3 = document.getElementById('boton3');
 let texto3 = document.getElementById('text3');
 
 window.onload = function (){
-    texto1.style.display='none';
     boton1.onclick = seguirLey1;
     
-    texto2.style.display='none';
     boton2.onclick = seguirLey2;
     
-    texto3.style.display='none';
     boton3.onclick = seguirLey3;
 }
 
