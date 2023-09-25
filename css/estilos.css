@@ -24,6 +24,8 @@ body{
         font-size: 22px;
     }
 
+
+
     /*NAVEGACION*/
 
     .tit img{
@@ -48,7 +50,6 @@ body{
 
     }
 
-
 /*IMAGEN*/
 .img{
     background-color: white;
@@ -56,6 +57,7 @@ body{
 }
     .img img{
         width: 800;
+        
     }
 
 
