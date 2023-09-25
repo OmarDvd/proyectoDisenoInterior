@@ -11,6 +11,17 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
+.nav-link {
+    color: #AB8262 !important; /* This remains unchanged as the font color you want is the same. */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.nav-link:hover {
+    background-color: white;
+    border-radius: 3px;
+}
 /*CABECERA*/
 .tit-nav{
     display: flex;
@@ -68,14 +79,16 @@ body{
     
     /*CONTENIDO*/
     .contenido{
-        max-width: 100%;
+        margin: 0 auto;
+        max-width: 1200px; /* Puedes ajustar este valor según tus necesidades */
+        padding: 0 15px;
     }
         .blanco, .marron{
             display: flex;
         }
 
         .contenido p{
-            padding-right: 70px;
+            
             line-height: 2;
         }
 
@@ -209,3 +222,47 @@ body{
     padding: 1.5rem;
     border-radius: .5rem;
 }
+
+/* Estilo para el logo para que tenga un margen a la izquierda */
+.logo {
+    margin-left: 15px; /* Margen izquierdo del logo */
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Estilo para el menú de navegación para que tenga un margen a la derecha */
+.navbar-nav {
+    margin-right: 15px; /* Margen derecho del menú */
+}
+
+/* Responsive: Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 5px; /* Margen izquierdo reducido para dispositivos más pequeños */
+    }
+
+    .navbar-nav {
+        margin-right: 5px; /* Margen derecho reducido para dispositivos más pequeños */
+    }
+}
+
+/* ESTILO IMAGENES DISEÑOS */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ESTILO IMAGENES PRODUCTOS*/
+.img-centered {
+    display: flex;
+    justify-content: center;
+}
+
+
