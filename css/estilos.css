@@ -14,7 +14,7 @@ body{
 /*CABECERA*/
 .tit-nav{
     display: flex;
-    padding: 10 0;
+    padding: 10px 0;
     justify-content: space-between;
     align-items: center;
 }
@@ -34,7 +34,7 @@ body{
     .nav a{
         text-decoration: none;
         color: #AB8262;
-        padding: 10;
+        padding: 10px;
         font-weight: bold;
         font-size: 16px;
     }
@@ -42,7 +42,7 @@ body{
     .nav a:hover{
         text-decoration: none;
         color: #AB8262;
-        padding: 10;
+        padding: 10px;
         font-weight: bold;
         font-size: 16px;
         background-color: white;
@@ -56,13 +56,13 @@ body{
     text-align: center;
 }
     .img img{
-        width: 800;
+        width: 800px;
         
     }
 
 
     .contenido h1,.contenido p,.contenido a{
-        padding: 15;
+        padding: 15px;
     }
 
     
@@ -75,7 +75,7 @@ body{
         }
 
         .contenido p{
-            padding-right: 70;
+            padding-right: 70px;
             line-height: 2;
         }
 
@@ -87,11 +87,11 @@ body{
 
 /*CUADROS DE COLORES*/
         #h1_blanco{
-             padding-top: 50;
+             padding-top: 50px;
         }
         
         .blanco_texto{
-            padding-bottom: 50;
+            padding-bottom: 50px;
         }
         .marron_texto p, #h1_blanco, .blanco_texto p{
             text-align: center;
@@ -157,3 +157,55 @@ body{
         .img_pro img:hover{
             border: 5px solid orange;
         }
+/** Contacto **/
+.formulario {
+    background-color: #AB8262;
+    width: min( 80rem, 100% );
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.formulario fieldset {
+    border: none;
+}
+.formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--primario);
+}
+
+@media (min-width: 768px) {
+    .contenedor-campos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto 20rem ;
+        column-gap: 1rem;
+    }
+
+    .campo:nth-child(3),
+    .campo:nth-child(4) {
+        grid-column: 1 / 3;
+    }
+}
+.campo {
+    margin-bottom: 1rem;
+}
+.campo label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+.campo textarea {
+    height: 20rem;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
