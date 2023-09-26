@@ -140,6 +140,15 @@ body{
             background-color: #F1F0ED;
             padding-top: 56px;
         }
+        .btn-secondary a{
+            text-decoration: none;
+            color: #F1F0ED;
+        }
+
+        .btn-primary a{
+            text-decoration: none;
+            color: #AB8262;
+        }
         
         /*DISEÑOS*/
         .img_diseng{
