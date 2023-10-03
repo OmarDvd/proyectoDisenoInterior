@@ -275,3 +275,38 @@ body{
 }
 
 
+.imagen-con-margen {
+    max-width: 82%;
+    padding: 0;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .imagen-con-margen {
+        max-width: 82%; 
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .imagen-con-margen {
+        max-width: 82%;
+        height: 10px;  
+    }
+}
+
+
+.container-fluid {
+    max-width: 88%;
+    height: auto;
+    margin-left: 5%;
+}
+.logo{
+    max-width: 85%;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.contenido{
+    max-width: 98.5%;
+}
