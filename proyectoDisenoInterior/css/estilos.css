@@ -66,21 +66,12 @@ body{
     background-color: white;
     text-align: center;
 }
-    
-
-#divImg{
-    width: 1550px; 
-    height: 350px; 
-    overflow: hidden;
-}
+    .img img{
+        width: 800px;
+        
+    }
 
 
-#imgInicio{
-    width: 100%; 
-    height: auto;
-    object-fit: none; /* No aplicar ajuste automático de tamaño */
-    object-position: bottom;
-}
     .contenido h1,.contenido p,.contenido a{
         padding: 15px;
     }
@@ -257,10 +248,6 @@ body{
 /* Estilo para el menú de navegación para que tenga un margen a la derecha */
 .navbar-nav {
     margin-right: 15px; /* Margen derecho del menú */
-    font-size: 80px;
-}
-a.nav-link{
-    font-size: 20px;
 }
 
 /* Responsive: Estilos para pantallas pequeñas */
@@ -271,15 +258,20 @@ a.nav-link{
 
     .navbar-nav {
         margin-right: 5px; /* Margen derecho reducido para dispositivos más pequeños */
-        
-        
     }
 }
 
-.imgDis:hover{
-    width: 1000px;
+/* ESTILO IMAGENES DISEÑOS */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ESTILO IMAGENES PRODUCTOS*/
+.img-centered {
     display: flex;
-    margin: 10px;
+    justify-content: center;
 }
 
 
