@@ -1,0 +1,286 @@
+*{
+    margin: 0;
+}
+
+/*BODY*/
+body{
+    background-color: #F1F0ED;
+    font-family: 'Raleway', sans-serif;
+}
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.nav-link {
+    color: #AB8262 !important; /* This remains unchanged as the font color you want is the same. */
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.nav-link:hover {
+    background-color: white;
+    border-radius: 3px;
+}
+/*CABECERA*/
+.tit-nav{
+    display: flex;
+    padding: 10px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+    /*TITULO CABECERA*/
+    .tit{
+        color: #AB8262;
+        font-size: 22px;
+    }
+
+
+
+    /*NAVEGACION*/
+
+    .tit img{
+        width: 300px;
+    }
+    .nav a{
+        text-decoration: none;
+        color: #AB8262;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .nav a:hover{
+        text-decoration: none;
+        color: #AB8262;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 16px;
+        background-color: white;
+        border-radius: 3px;
+
+    }
+
+/*IMAGEN*/
+.img{
+    background-color: white;
+    text-align: center;
+}
+    .img img{
+        width: 800px;
+        
+    }
+
+
+    .contenido h1,.contenido p,.contenido a{
+        padding: 15px;
+    }
+.img_container{
+    margin-top: 15px;
+}
+
+    
+    /*CONTENIDO*/
+    .contenido{
+        margin: 0 auto;
+        max-width: 1200px; /* Puedes ajustar este valor según tus necesidades */
+        padding: 0 15px;
+    }
+        .blanco, .marron{
+            display: flex;
+        }
+
+        .contenido p{
+            
+            line-height: 2;
+        }
+
+        .contenido a{
+            color: gray;
+            line-height: 3;
+        }
+
+        .div_ir{
+            display: flex;
+            justify-content: center;
+        }
+
+
+/*CUADROS DE COLORES*/
+        #h1_blanco{
+             padding-top: 50px;
+        }
+        
+        .blanco_texto{
+            padding-bottom: 50px;
+        }
+        .marron_texto p, #h1_blanco, .blanco_texto p{
+            text-align: center;
+        }
+        .marron{
+            background-color: #AB8262;
+            color: #F1F0ED;
+
+        }
+
+        .blanco{
+            background-color:#F1F0ED;
+            color: #AB8262;
+           
+        }
+        
+        .info{
+            display: flex;
+            background-color: #AB8262;
+        }
+        .info_blanca{
+            display: flex;
+            background-color: #F1F0ED;
+        }
+
+        .material-symbols-outlined{
+            padding-top: 22px;
+            color: #F1F0ED;
+        }
+        
+        #boton_blanco{
+            color: #AB8262;
+            background-color: #F1F0ED;
+            padding-top: 56px;
+        }
+        .btn-secondary a{
+            text-decoration: none;
+            color: #F1F0ED;
+        }
+
+        .btn-primary a{
+            text-decoration: none;
+            color: #AB8262;
+        }
+        
+        /*DISEÑOS*/
+        .img_diseng{
+            margin: 0 auto;
+            max-width: 1000px;
+        }
+        .img_diseng img{
+            width: 300px;
+            text-align: center;
+        }
+
+
+        /*Produc*/
+        .img_pro{
+            display: flex;
+            margin: 0 auto;
+        }
+        .fila{
+            display: flex;
+            flex-wrap: wrap;
+   
+            
+        }
+        .img_pro img{
+            
+            border: 5px solid brown;
+        }
+        .img_pro img:hover{
+            border: 5px solid orange;
+        }
+/** Contacto **/
+.formulario {
+    background-color: #AB8262;
+    width: min( 80rem, 100% );
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.formulario fieldset {
+    border: none;
+}
+.formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--primario);
+}
+
+@media (min-width: 768px) {
+    .contenedor-campos {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: auto auto 20rem ;
+        column-gap: 1rem;
+    }
+
+    .campo:nth-child(3),
+    .campo:nth-child(4) {
+        grid-column: 1 / 3;
+    }
+}
+.campo {
+    margin-bottom: 1rem;
+}
+.campo label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+.campo textarea {
+    height: 20rem;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+/* Estilo para el logo para que tenga un margen a la izquierda */
+.logo {
+    margin-left: 15px; /* Margen izquierdo del logo */
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Estilos para la barra de navegación */
+.navbar {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* Estilo para el menú de navegación para que tenga un margen a la derecha */
+.navbar-nav {
+    margin-right: 15px; /* Margen derecho del menú */
+}
+
+/* Responsive: Estilos para pantallas pequeñas */
+@media (max-width: 768px) {
+    .logo {
+        margin-left: 5px; /* Margen izquierdo reducido para dispositivos más pequeños */
+    }
+
+    .navbar-nav {
+        margin-right: 5px; /* Margen derecho reducido para dispositivos más pequeños */
+    }
+}
+
+/* ESTILO IMAGENES DISEÑOS */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+
+
+/* ESTILO IMAGENES PRODUCTOS*/
+.img-centered {
+    display: flex;
+    justify-content: center;
+}
+
+
